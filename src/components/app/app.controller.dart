@@ -1,0 +1,6 @@
+class AppController {
+  //
+
+  ///[=================== CONSTRUTOR ===================]
+  AppController() {}
+}
