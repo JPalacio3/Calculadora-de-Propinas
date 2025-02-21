@@ -34,7 +34,7 @@ function App() {
 						<>
 							<h2 className="font-black text-4xl text-center">Consumo</h2>
 
-							<OrderContents order={state.order} removeItem={removeItem} />
+							<OrderContents order={state.order} dispatch={dispatch} />
 
 							<TipPercentageForm setTip={setTip} tip={tip} />
 
