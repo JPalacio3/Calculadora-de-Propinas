@@ -19,7 +19,7 @@ export const initialState: OrderState = {
 export const orderReducer = (
 	state: OrderState = initialState,
 	action: OrderActions
-) => {
+): OrderState => {
 	if (action.type === "add-item") {
 		const itemExist = state.order.find(
 			(orderItem) => orderItem.id === action.payload.item.id
@@ -53,12 +53,19 @@ export const orderReducer = (
 	if (action.type === "place-order") {
 		return {
 			...state,
+			order: [],
+			tip: 0,
 		};
 	}
 
 	if (action.type === "add-tip") {
+		const tip = action.payload.value;
 		return {
 			...state,
+			tip,
 		};
 	}
+
+	// Añadir return por defecto
+	return state;
 };
