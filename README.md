@@ -4,9 +4,11 @@ Una aplicación web desarrollada con React y TypeScript que permite calcular pro
 
 ## Características
 
+- Selección de los productos incluidos en el menú
 - Cálculo de propinas basado en el monto total de la cuenta
 - Selección de porcentaje de propina
 - Interfaz de usuario intuitiva y responsive
+
 
 ## Requisitos Previos
 
