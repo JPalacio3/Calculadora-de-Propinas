@@ -6,7 +6,6 @@ Una aplicación web desarrollada con React y TypeScript que permite calcular pro
 
 - Cálculo de propinas basado en el monto total de la cuenta
 - Selección de porcentaje de propina
-- Opción para dividir la cuenta entre varias personas
 - Interfaz de usuario intuitiva y responsive
 
 ## Requisitos Previos
